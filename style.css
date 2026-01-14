@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #bcc8c7;
+    color: #333;
+}
+
+
+header {
+    background-color: #000;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    box-shadow: 0px 10px 20px rgb(212, 197, 114);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1 {
+    color: rgb(233, 208, 67);
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    color: rgb(216, 191, 45);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #c9a14a;
+}
+ul{
+      animation-name:fadeInTopLeft;
+    animation-duration: 5s;
+}
+
+.hero {
+    height: 500px;
+    background: url(./images/rm\ 1010.jpg)  center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    margin: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+
+}
+
+.hero h3 {
+    font-size: 50px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 500px;
+    color: black;
+}
+.hero-content {
+  border: 2px solid gold;
+  background-color: rgb(202, 184, 80);
+  height: 150px;
+  opacity: 0.7;
+  border-radius: 10px;
+  animation-name:lightSpeedInLeft;
+  animation-duration: 5s;
+  
+}
+
+section {
+    padding: 60px 50px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+
+.watches{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.watch-card{
+    border: 2px solid #000;
+    background: white;
+    width: 280px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    
+     
+}
+
+.watch-card img:hover {
+    width: 100%;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.watch-card h3 {
+    margin: 15px 0 10px;
+    border: 2px solid black;
+    color: #f0f0f0;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px black;
+}
+.collection {
+    border: 2px solid black;
+    background-color: black;
+    color: rgb(195, 174, 60);
+    width: 500px;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-top: 15px;
+    margin-top: -55px;
+    box-shadow: 0px 5px 2px rgb(194, 181, 107);
+}
+ 
+.Presentation{
+       border: 2px solid black;
+    background-color: black;
+    color: rgb(195, 174, 60);
+    width: 500px;
+    margin-left: 450px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding-top: 15px;
+    margin-top: -120px;
+     box-shadow: 0px 5px 2px rgb(194, 181, 107);
+}
+
+video {
+    width: 300px;
+    border-radius: 30px;
+    height: 500px;
+
+}
+
+.order-form {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.order-form input,
+.order-form textarea,
+.order-form button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.order-form button {
+    background: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.order-form button:hover {
+    background: #c9a14a;
+}
+
+.place{
+        border: 2px solid black;
+    background-color: black;
+    color: rgb(195, 174, 60);
+    width: 500px;
+    margin-left: 450px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-top: 15px;
+    margin-top: -120px;
+     box-shadow: 0px 5px 2px rgb(194, 181, 107);
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+  padding: 80px 60px;
+}
+
+.about, .features, .reviews, .faq {
+  background: #ffffff;
+}
+
+.categories, .process, .cta {
+  background: #f0f0f0;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+  padding: 12px;
+}
+
+a>img{
+    height: 50px;
+    width: 60px;
+}
+a>img{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    position: fixed;
+    
+}
+
+/* SECOND PAGE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.navbar1 {
+ border: 2px solid black;
+}
+
+.navbar h1 {
+    color: #d4af37;
+    font-size: 28px;
+    letter-spacing: 2px;
+    background-color: #000;
+}
+
+
+.watch-section {
+    padding: 60px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+}
+
+.watch-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    
+}
+
+.watch-card {
+     margin: 15px 0 10px;
+    border: 2px solid black;
+    color: #f0f0f0;
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px black;}
+
+.watch-card:hover {
+    transform: translateY(-5px);
+}
+
+.watch-card h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.watch-card p {
+    color: #d4af37;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #d4af37;
+}
+
+.footer p {
+    color: #cccccc;
+    font-size: 14px;
+}
+.animate__animated{
+
+    animation-name:fadeInTopLeft;
+    animation-duration: 2s;
+}
