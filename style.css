@@ -329,3 +329,144 @@ a>img{
     animation-name:fadeInTopLeft;
     animation-duration: 2s;
 }
+
+@media (max-width: 992px) {
+
+    header {
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero {
+        height: auto;
+        padding: 30px;
+        text-align: center;
+    }
+
+    .hero-content {
+        height: auto;
+        padding: 20px;
+    }
+
+    .hero h3 {
+        font-size: 36px;
+    }
+
+    .collection,
+    .Presentation,
+    .place {
+        width: 90%;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .watches {
+        gap: 20px;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    table {
+        width: 95%;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    nav h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    .hero h3 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    .watch-card {
+        width: 90%;
+        margin: auto;
+    }
+
+    .watch-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .order-form {
+        width: 95%;
+        padding: 20px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    header {
+        border-radius: 10px;
+    }
+
+    .hero {
+        padding: 20px;
+    }
+
+    .hero-content {
+        opacity: 0.9;
+    }
+
+    .hero h3 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .collection,
+    .Presentation,
+    .place {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    a > img {
+        height: 40px;
+        width: 40px;
+        right: 10px;
+        bottom: 10px;
+    }
+}
